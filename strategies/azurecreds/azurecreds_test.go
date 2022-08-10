@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	h "github.com/koltyakov/gosip-sandbox/test/helpers"
-	u "github.com/koltyakov/gosip-sandbox/test/utils"
+	h "github.com/NoobD0gg/gosip-sandbox/test/helpers"
+	u "github.com/NoobD0gg/gosip-sandbox/test/utils"
 )
 
 var cnfgPath = "./config/private.azurecreds.json"

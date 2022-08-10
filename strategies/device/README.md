@@ -36,7 +36,7 @@ import (
 
 	"github.com/koltyakov/gosip"
 	"github.com/koltyakov/gosip/api"
-	strategy "github.com/koltyakov/gosip-sandbox/strategies/device"
+	strategy "github.com/NoobD0gg/gosip-sandbox/strategies/device"
 )
 
 func main() {

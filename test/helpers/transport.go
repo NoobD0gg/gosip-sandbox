@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
+	u "github.com/NoobD0gg/gosip-sandbox/test/utils"
 	"github.com/koltyakov/gosip"
-	u "github.com/koltyakov/gosip-sandbox/test/utils"
 )
 
 func CheckTransport(auth gosip.AuthCnfg, cnfgPath string) error {

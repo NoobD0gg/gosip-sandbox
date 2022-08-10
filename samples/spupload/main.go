@@ -13,7 +13,7 @@ import (
 	"github.com/koltyakov/gosip/api"
 	"github.com/radovskyb/watcher"
 
-	"github.com/koltyakov/gosip-sandbox/samples/dynauth"
+	"github.com/NoobD0gg/gosip-sandbox/samples/dynauth"
 )
 
 var (

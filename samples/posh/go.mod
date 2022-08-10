@@ -1,4 +1,4 @@
-module github.com/koltyakov/gosip-sandbox/samples/posh
+module github.com/NoobD0gg/gosip-sandbox/samples/posh
 
 go 1.14
 

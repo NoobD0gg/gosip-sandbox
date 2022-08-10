@@ -1,6 +1,6 @@
 # Gosip use cases and samples
 
-Have a use case but no idea how to implement? Ask in [issues section](https://github.com/koltyakov/gosip-sandbox/issues) and we'll reach you with suggestions or sample to start with.
+Have a use case but no idea how to implement? Ask in [issues section](https://github.com/NoobD0gg/gosip-sandbox/issues) and we'll reach you with suggestions or sample to start with.
 
 Have a noticeable example to share with the community? Reach us with a contribution suggestion. PRs are welcome!
 

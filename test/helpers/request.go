@@ -8,7 +8,7 @@ import (
 
 	"github.com/koltyakov/gosip"
 
-	u "github.com/koltyakov/gosip-sandbox/test/utils"
+	u "github.com/NoobD0gg/gosip-sandbox/test/utils"
 )
 
 // CheckRequest : try sending basic request

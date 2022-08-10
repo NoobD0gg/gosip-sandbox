@@ -12,9 +12,9 @@ import (
 	"github.com/koltyakov/gosip/auth/saml"
 	"github.com/koltyakov/gosip/auth/tmg"
 
-	ntlm2 "github.com/koltyakov/gosip-sandbox/strategies/ntlm"
-	"github.com/koltyakov/gosip-sandbox/strategies/device"
-	"github.com/koltyakov/gosip-sandbox/strategies/ondemand"
+	ntlm2 "github.com/NoobD0gg/gosip-sandbox/strategies/ntlm"
+	"github.com/NoobD0gg/gosip-sandbox/strategies/device"
+	"github.com/NoobD0gg/gosip-sandbox/strategies/ondemand"
 )
 
 // NewAuthCnfg creates AuthCnfg object based on strategy and config path

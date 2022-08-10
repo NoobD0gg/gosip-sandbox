@@ -15,7 +15,7 @@ import (
 	"github.com/koltyakov/gosip/api"
 	"github.com/koltyakov/gosip/csom"
 
-	"github.com/koltyakov/gosip-sandbox/samples/dynauth"
+	"github.com/NoobD0gg/gosip-sandbox/samples/dynauth"
 )
 
 func main() {

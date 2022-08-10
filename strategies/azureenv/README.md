@@ -62,7 +62,7 @@ import (
 
 	"github.com/koltyakov/gosip"
 	"github.com/koltyakov/gosip/api"
-	strategy "github.com/koltyakov/gosip-sandbox/strategies/azureenv"
+	strategy "github.com/NoobD0gg/gosip-sandbox/strategies/azureenv"
 )
 
 func main() {
