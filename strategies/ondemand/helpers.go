@@ -29,7 +29,7 @@ func (c *AuthCnfg) onDemandAuthFlow(initialCookies *Cookies) (*Cookies, error) {
 	var e error
 
 	go func() {
-		time.Sleep(50000)
+		time.Sleep(20 * time.Second)
 		resp := ui.Send("Network.getCookies", nil)
 		if resp.Err() != nil {
 			e = resp.Err()
