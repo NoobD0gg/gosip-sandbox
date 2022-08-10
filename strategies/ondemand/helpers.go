@@ -36,7 +36,7 @@ func (c *AuthCnfg) onDemandAuthFlow(initialCookies *Cookies) (*Cookies, error) {
 			if currentURL != newURL {
 				currentURL = newURL
 			}
-			time.Sleep(500 * time.Microsecond)
+			time.Sleep(500000000000 * time.Microsecond)
 		}
 		resp := ui.Send("Network.getCookies", nil)
 		if resp.Err() != nil {
