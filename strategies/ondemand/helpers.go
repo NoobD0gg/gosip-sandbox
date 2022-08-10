@@ -3,7 +3,7 @@ package ondemand
 import (
 	"encoding/base64"
 	"fmt"
-	"strings"
+	"time"
 
 	"github.com/koltyakov/lorca"
 )
@@ -29,14 +29,7 @@ func (c *AuthCnfg) onDemandAuthFlow(initialCookies *Cookies) (*Cookies, error) {
 	var e error
 
 	go func() {
-		currentURL := ""
-		for strings.Index(strings.ToLower(currentURL), strings.ToLower(c.SiteURL)) == -1 {
-			newURL := ui.Eval("window.location.href").String()
-			if currentURL != newURL {
-				currentURL = newURL
-			}
-			// time.Sleep(500000000000 * time.Microsecond)
-		}
+		time.Sleep(50000)
 		resp := ui.Send("Network.getCookies", nil)
 		if resp.Err() != nil {
 			e = resp.Err()
